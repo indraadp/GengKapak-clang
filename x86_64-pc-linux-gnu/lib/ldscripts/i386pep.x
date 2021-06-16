@@ -1,10 +1,10 @@
 /* Default linker script, for normal executables */
-/* Copyright (C) 2014-2020 Free Software Foundation, Inc.
+/* Copyright (C) 2014-2021 Free Software Foundation, Inc.
    Copying and distribution of this script, with or without modification,
    are permitted in any medium without royalty provided the copyright
    notice and this notice are preserved.  */
 OUTPUT_FORMAT(pei-x86-64)
-SEARCH_DIR("/home/angga/bc/install/x86_64-pep/lib"); SEARCH_DIR("/home/angga/bc/install/lib"); SEARCH_DIR("/usr/local/lib"); SEARCH_DIR("/lib"); SEARCH_DIR("/usr/lib");
+SEARCH_DIR("/home/user/clang/install/x86_64-pep/lib"); SEARCH_DIR("/home/user/clang/install/lib"); SEARCH_DIR("/usr/local/lib"); SEARCH_DIR("/lib"); SEARCH_DIR("/usr/lib");
 SECTIONS
 {
   /* Make the virtual address and file offset synced if the alignment is
